@@ -178,23 +178,26 @@ button {
 }
 
 .receitas-container {
-    padding: 0rem 10rem;
+    padding: 0rem 6rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: space-between;
+    justify-content:space-between;
+    max-width: none;
+    
 }
 
 .card-receita {
     background: #241A1C;
     padding: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     flex-basis: 29rem;
     margin-top: 2rem;
+    flex: 1 0 0;
 }
 
 .receitas-card-cabecalho {
@@ -245,7 +248,7 @@ button {
 
  .receita-autor > img {
     border-radius: 20rem;
-    width: 1.5rem;
+    width: 3rem;
  }
 
  footer {
